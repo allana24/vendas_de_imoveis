@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:  rgb(122, 126, 120);
+    font-family: sans-serif;
+}
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 4rem;
+    background-color: rgb(51, 70, 89);
+}
+
+ main div.texto h1 {
+    color: white;
+    text-shadow: 0 3px 1px black;
+    font-size: 2rem;
+    padding: 0 5rem;
+
+}
+
+header section.Logo img {
+    width: 120px;
+    height: 90px;
+}
+
+header .wpp {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+
+    text-shadow: 0 1px 2px rgba(0,0,0,0,0.5);
+}
+main {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    background-image: url('recife.jpg');
+    background-size: cover;
+    background-position: 20%;
+}
+
+main div.text{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+
+    padding: 0 5rem;
+    text-shadow: 0 1px 1px #000,
+                 0 -1px 4px #000;
+}
+
+main div.inputs {
+    margin-right: 10rem;
+    background-color: #fcfcfa;
+    padding: 2rem 2rem;
+    border-radius: .5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: .5rem;
+}
+
+main div.inputs p {
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 10%;
+    font-size: 18px;
+}
+
+main div.inputs input {
+    outline: none;
+    padding: .5rem 0;
+}
+
+.btn {
+    opacity: 1;
+    transition: ease-in ;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: .2rem;
+    color: #212020;
+
+    background-color: rgb(228, 98, 47);
+}
+
+.btn:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(138, 137, 137);
+    border: 2px solid black;
+    transition: 0.2s all;
+    
+}
+
+
+footer {
+    color: #ffffff;
+    text-shadow: 0 2px 1px black;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    padding-top: 2rem;
+    align-items: center;
+    margin: 2%;
+}
+
+
+
